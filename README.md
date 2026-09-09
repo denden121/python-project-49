@@ -22,7 +22,10 @@ cd python-project-49
 
 ## Использование
 
-**Пример работы** — [asciinema](https://asciinema.org/a/BjHqLmQW7Fq9pAQB)
+**Примеры работы:**
+
+- [Игра «Проверка на чётность» (`brain-even`)](https://asciinema.org/a/BjHqLmQW7Fq9pAQB)
+- [Игра «Калькулятор» (`brain-calc`)](https://asciinema.org/a/NEDpFyNWb9a6KgoF)
 
 ---
 
@@ -36,5 +39,3 @@ cd python-project-49
 ## О Хекслете
 
 [Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
-
-

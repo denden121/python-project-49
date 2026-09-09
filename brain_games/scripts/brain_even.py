@@ -2,6 +2,8 @@ import random
 
 import prompt
 
+from brain_games.cli import welcome_user
+
 
 def is_even(number):
     return number % 2 == 0
@@ -27,4 +29,6 @@ def brain_even(name: str) -> None:
     print(f'Congratulations, {name}!')
 
 
-    
+def main() -> None:
+    name = welcome_user()
+    brain_even(name)
