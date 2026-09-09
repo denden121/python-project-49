@@ -22,6 +22,7 @@ def brain_even(name: str) -> None:
         else:
             cur_answer = 'yes' if is_even(random_int) else 'no'
             print_wrong_answer(answer, cur_answer, name)
+            return
 
     print(f'Congratulations, {name}!')
 
