@@ -7,7 +7,9 @@ authors = [
     { name = "denden121", email = "50229720+denden121@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "prompt>=0.4.1",
+]
 
 [build-system]
 requires = ["hatchling"]
