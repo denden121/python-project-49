@@ -3,6 +3,7 @@ import random
 import prompt
 
 from brain_games.cli import print_wrong_answer, welcome_user
+from brain_games.constants import ROUNDS_COUNT
 
 
 def is_even(number):
@@ -11,8 +12,7 @@ def is_even(number):
 
 def brain_even(name: str) -> None:
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    count_tries = 3
-    while count_tries > 0:
+    for _ in range(ROUNDS_COUNT):
         random_int = random.randint(1, 1000)
         print(f'Question: {int(random_int)}')
         answer = prompt.string("Your answer: ")
@@ -23,7 +23,6 @@ def brain_even(name: str) -> None:
             cur_answer = 'yes' if is_even(random_int) else 'no'
             print_wrong_answer(answer, cur_answer, name)
 
-        count_tries -= 1
     print(f'Congratulations, {name}!')
 
 

@@ -3,9 +3,9 @@ import random
 import prompt
 
 from brain_games.cli import print_wrong_answer, welcome_user
+from brain_games.constants import ROUNDS_COUNT
 
 PROGRESSION_LENGTH = 10
-ROUNDS_COUNT = 3
 
 
 def make_progression(start: int, step: int) -> list[int]:

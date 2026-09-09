@@ -3,8 +3,7 @@ import random
 import prompt
 
 from brain_games.cli import print_wrong_answer, welcome_user
-
-ROUNDS_COUNT = 3
+from brain_games.constants import ROUNDS_COUNT
 
 
 def find_gcd(first_number: int, second_number: int) -> int:

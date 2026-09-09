@@ -28,6 +28,7 @@ cd python-project-49
 - [Игра «Калькулятор» (`brain-calc`)](https://asciinema.org/a/NEDpFyNWb9a6KgoF)
 - [Игра «Наибольший общий делитель» (`brain-gcd`)](https://asciinema.org/a/kot6PsiiVDWrOxeK)
 - [Игра «Арифметическая прогрессия» (`brain-progression`)](https://asciinema.org/a/y4ebvXcmoBEH3AKl)
+- [Игра «Простое ли число?» (`brain-prime`)](https://asciinema.org/a/zu9Ur0GEzF663gGe)
 
 ---
 

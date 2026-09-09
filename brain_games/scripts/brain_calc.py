@@ -3,9 +3,9 @@ import random
 import prompt
 
 from brain_games.cli import print_wrong_answer, welcome_user
+from brain_games.constants import ROUNDS_COUNT
 
 OPERATORS = ('+', '-', '*')
-ROUNDS_COUNT = 3
 
 
 def calculate(first_number: int, second_number: int, operator: str) -> int:
