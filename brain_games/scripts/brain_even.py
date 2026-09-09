@@ -2,7 +2,7 @@ import random
 
 import prompt
 
-from brain_games.cli import welcome_user
+from brain_games.cli import print_wrong_answer, welcome_user
 
 
 def is_even(number):
@@ -21,9 +21,7 @@ def brain_even(name: str) -> None:
             print("Correct!")
         else:
             cur_answer = 'yes' if is_even(random_int) else 'no'
-            print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{cur_answer}'. "
-                  f"Let's try again, {name}!")
+            print_wrong_answer(answer, cur_answer, name)
 
         count_tries -= 1
     print(f'Congratulations, {name}!')

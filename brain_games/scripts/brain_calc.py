@@ -2,7 +2,7 @@ import random
 
 import prompt
 
-from brain_games.cli import welcome_user
+from brain_games.cli import print_wrong_answer, welcome_user
 
 OPERATORS = ('+', '-', '*')
 ROUNDS_COUNT = 3
@@ -31,11 +31,7 @@ def brain_calc(name: str) -> None:
         answer = prompt.string('Your answer: ')
 
         if answer != str(correct_answer):
-            print(
-                f"'{answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'.\n"
-                f"Let's try again, {name}!"
-            )
+            print_wrong_answer(answer, correct_answer, name)
             return
 
         print('Correct!')

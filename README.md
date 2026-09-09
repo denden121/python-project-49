@@ -26,6 +26,7 @@ cd python-project-49
 
 - [Игра «Проверка на чётность» (`brain-even`)](https://asciinema.org/a/BjHqLmQW7Fq9pAQB)
 - [Игра «Калькулятор» (`brain-calc`)](https://asciinema.org/a/NEDpFyNWb9a6KgoF)
+- [Игра «Наибольший общий делитель» (`brain-gcd`)](https://asciinema.org/a/kot6PsiiVDWrOxeK)
 
 ---
 
